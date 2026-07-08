@@ -141,4 +141,37 @@ body {
 .btn--outline:hover {
   background: #ffffff;
   color: #1a1a2e;
+}
+
+.features {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 25px;
+  padding: 0 16px;
+}
+.features__icon {
+  font-size: 32px;
+}
+.features__title {
+  font-weight: bold;
+  color: #1a1a2e;
+}
+.features__sub {
+  font-size: 13px;
+  font: #a0a0b0;
+  line-height: 1.4;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
